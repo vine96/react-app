@@ -1,4 +1,6 @@
 import './App.css';
+import HelloWorld from './components/HelloWorld';
+import Text from './components/Text';
 
 function App() {
 
@@ -14,6 +16,8 @@ function App() {
       <p>Meu primeiro projeto xD by: {name.toUpperCase()}</p>
       <p>Soma: {sum(1, 3)}</p>
       <img src={url} alt="Imagem de computador gamer" />
+      <HelloWorld/>
+      <Text/>
     </div>
   );
 }
