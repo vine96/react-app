@@ -1,7 +1,9 @@
+import styles from './Text.module.css'
+
 function Text(){
     return(
-        <div>
-            <p>Este é um componente com um texto!</p>
+        <div className={styles.textContainer}>
+            <p className={styles.textContent}>Este é um componente com um texto!</p>
         </div>
     )
 }

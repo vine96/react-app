@@ -1,11 +1,13 @@
 import './App.css';
 import SayMyName from './components/SayMyName';
 import People from './components/People';
+import Text from './components/Text';
 
 function App() {
   const name = 'Jubiscleiton'
   return (
     <div className="App">
+      <Text/>
       <SayMyName name="Vinicius"/>
       <SayMyName name="João"/>
       <SayMyName name={name}/>
